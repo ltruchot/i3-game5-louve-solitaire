@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(black, white);
+    background-repeat: no-repeat;
+    height: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: red;
+    font-size: 120px;
+    font-weight:bold;
+    letter-spacing: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+}
+
+h1:hover {
+    transition: 7s;
+    margin-left: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+a
+ {
+    border: 0;
+    border-radius: 20%;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    width: 300px;
+    text-align: center;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+li {
+    color: white;
+    font-size: px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    list-style-type: none;
+}
+header {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    list-style-type: none;
+}
+
+
+img{
+    border: 5px solid red;
+    height: 500px; width: 700px;
+}
+
+#scrollUp{
+position: fixed;
+bottom: 10px;
+right: -100px;
+opacity: 1;
+}
+
+.toto {
+    height: 0;
+}
